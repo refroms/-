@@ -1,3 +1,4 @@
+//1. 在用户输入一个一维数组的长度之后，再输入数组的内容。利用指针和函数 来实现对输入的一维数组进行排序。
 #include <iostream>
 using namespace std;
 int *function(int n, int c[]);
