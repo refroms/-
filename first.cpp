@@ -5,11 +5,11 @@ int *function(int n, int c[]);
 int main() {
 	int *p, *pt;
 	int m, i = 0;
-	printf("ÇëÊäÈëÒ»¸öÊý\n", m);
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°\n", m);
 	cin >> m;
 	int b[m] = {0};
 	p = b;
-	printf("ÇëÊäÈë%d¸öÊý\n", m);
+	printf("è¯·è¾“å…¥%dä¸ªæ•°\n", m);
 	for (i = 0; i < m; i++) {
 		cin >> *(p + i);
 	}
@@ -36,3 +36,9 @@ int *function(int n, int c[]) {
 	}
 	return pp;
 }
+//ç»“æžœï¼š
+//è¯·è¾“å…¥ä¸€ä¸ªæ•°
+//5
+//è¯·è¾“å…¥5ä¸ªæ•°
+//6 4 5 2 3
+//6 5 4 3 2
